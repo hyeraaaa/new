@@ -1,0 +1,28 @@
+#uploadExcelForm {
+    max-width: 500px;
+}
+
+#uploadExcelForm .input-group {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+#uploadExcelForm .form-control {
+    border: 1px solid #dee2e6;
+}
+
+#uploadExcelForm .btn-success {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.btn-primary, .btn-success {
+    padding: 8px 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

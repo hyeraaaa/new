@@ -1,0 +1,81 @@
+.form-control {
+    border-radius: 13px !important;
+}
+
+.form-container form{
+    min-width: 500px;
+    width: 700px;
+}
+
+.upload-image-container {
+    position: relative;
+    border-radius: 10px;
+    border: 1px dashed grey;
+    overflow: hidden;
+    height: auto;
+}
+
+#image-preview {
+    display: none;
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    position: relative;
+    z-index: 1; 
+}
+
+.blur-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(30px);
+    z-index: 0; 
+}
+
+.blur-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.6); 
+    z-index: 1; 
+}
+
+#file-upload-btn {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 24px; 
+}
+
+#file-upload-btn i {
+    color: black; 
+}
+
+#delete-icon{
+    z-index: 3;
+}
+
+
+.image-preview-container.image-uploaded #delete-icon {
+    display: block;
+}
+
+.title {
+    border-radius: 20px;
+}
+
+.button-container .btn {
+    border-radius: 20px;
+}
+
+.profile-container img {
+    max-height: 10px !important;
+}
+

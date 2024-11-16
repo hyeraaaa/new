@@ -1,0 +1,49 @@
+.custom{
+    border-radius: 15px !important;
+}
+
+.modal-content button{
+    border: none;
+}
+
+.delete-modal-close{
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+.go-back-btn{
+    border-radius: 20px;
+    background-color: rgb(236, 236, 236);
+}
+
+.go-back-btn:hover {
+    background-color: rgb(200, 200, 200); 
+}
+
+.go-back-btn:active, .go-back-btn:focus {
+    background-color: rgb(204, 204, 204) !important; 
+}
+
+.delete-btn{
+    border-radius: 25px;
+    background-color: rgb(238, 21, 21);
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: rgb(200, 0, 0); 
+    color: white;
+}
+
+.delete-btn:active, .delete-btn:focus {
+    background-color:  rgb(238, 21, 21) !important;
+}
+
+.delete-btn:active{
+    color: white !important;
+}
+
+.delete-message{
+    border-radius: 25px !important;
+    border: none;
+}

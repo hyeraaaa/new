@@ -1,0 +1,113 @@
+.sidebar {
+    height: calc(100vh - 48px);
+    padding-top: 20px;
+    position: sticky;
+    top: 48px; 
+    overflow-y: auto;
+    max-width: 100%;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+}
+
+.sticky-sidebar {
+    height: 100%;
+    padding-top: 25px;
+}
+
+.nav {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav li {
+    margin: 8px 0;
+}
+
+
+.nav li a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #495057;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #e9ecef;
+    color: #cc0000;
+    transform: translateX(5px);
+}
+
+a.active{
+    background-color: rgb(216, 213, 213);
+    color: #cc0000 !important;
+    transform: translateX(5px);
+}
+
+
+.sticky-recent-post{
+    position: sticky;
+    top: 100px;
+}
+
+
+.latest-card {
+    max-width: 350px;
+    margin-left: 50px;
+    max-height: 600px;
+    border-radius: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6));
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+
+.recent-profile-container .profile-picture{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.post-img-container{
+    height: 80px;
+    width: 80px;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-img-container .post-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.info-card{
+    margin-left: 30px;
+    max-width: 325px;
+}
+
+.sticky-card{
+    position: sticky;
+    top: 100px;
+}
+
+.card-info{
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,2 @@
+<?php 
+define('INFOPB_API_KEY', '90f70a7a0843650f0cd70d01ac47e048-8c7ffe9f-c816-4b9a-88c6-3370b9584292');
